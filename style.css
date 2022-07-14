@@ -1,0 +1,38 @@
+#big-box{
+    width:450px;
+    height:450px;
+    background-color:red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile-css{
+    width: 50px;
+    height:50px;
+     box-sizing: border-box; 
+     border: 1px solid black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#solve-btn{
+    margin: 10px;
+}
+.left-border{
+    border-left: 4px solid black;
+}
+.top-border{
+    border-top: 4px solid black;
+}
+.bottom-border{
+    border-bottom: 4px solid black;
+}
+.right-border{
+    border-right: 4px solid black;
+}
+.wrong-input{
+    background-color: crimson;
+}
